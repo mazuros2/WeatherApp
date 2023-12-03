@@ -1,4 +1,9 @@
 body {
-    display: flexbox;
-
+    background: linear-gradient(to left, #66FFB2 ,#cdbc5a);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    
 }
