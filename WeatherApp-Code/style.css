@@ -26,8 +26,6 @@ h1 {
     max-width: 400px;
     padding: 40px 35px;
     margin: 100px auto 0;
-    
-
 }
 
 .search_bar {
@@ -48,9 +46,18 @@ h1 {
     flex: 1;
     margin-right: 16px;
     font-size: 18px;
-
 }
 
 .search_bar button {
+    background: white;
+    outline: 0;
+    border: 0;
+    height: 65px;
+    width: 65px;
+    border-radius: 60%;
+    cursor: pointer;
+}
 
+.search_bar button img {
+    width: 18px;
 }
