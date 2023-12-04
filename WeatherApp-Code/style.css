@@ -1,9 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Montserrat:wght@500&display=swap');
+
+* {
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
 body {
-    background: linear-gradient(to left, #66FFB2 ,#cdbc5a);
+    background: #222;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     margin: 0;
+}
+
+h1 {
+   font-size: 44px;
+}
+
+.container {
+    background:linear-gradient(to right, #9f5acd, #eec84d);
+    text-align: center;
+    color: #fff;
+    width: 90%;
+    max-width: 400px;
+    padding: 40px 35px;
+    margin: 100px auto 0;
     
+
+}
+
+.search_bar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search_bar input {
+    background: white;
+    outline: 0;
+    border: 0;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+
+}
+
+.search_bar button {
+
 }
