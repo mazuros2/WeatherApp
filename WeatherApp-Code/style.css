@@ -26,6 +26,7 @@ h1 {
     max-width: 400px;
     padding: 40px 35px;
     margin: 100px auto 0;
+    border-radius: 20px;
 }
 
 .search_bar {
@@ -41,8 +42,8 @@ h1 {
     border: 0;
     color: #555;
     padding: 10px 25px;
-    height: 60px;
-    border-radius: 30px;
+    height: 55px;
+    border-radius: 32px;
     flex: 1;
     margin-right: 16px;
     font-size: 18px;
